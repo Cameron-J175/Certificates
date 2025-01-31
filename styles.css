@@ -1,0 +1,72 @@
+* {
+    background-color: #fff7f3;
+    font-family: 'Diplomata SC', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+li {
+    font-size: 2rem;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+p {
+    font-size: 1rem;
+}
+
+#nameHere,
+#nameHere:focus {
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    z-index: 1;
+    border: dashed black 2px;
+    width: 60%;
+    margin-left: 10%;
+    position: absolute;
+    text-decoration: underline;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .Intro {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Intro h1{
+    margin-top: 10%;
+  }
+
+  .BottomImages {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .CongratsContent {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+  }
+
+  
