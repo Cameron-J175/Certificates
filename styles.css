@@ -34,20 +34,11 @@ p {
     text-align: center;
 }
 
-.dropdown-content {
-    display: none;
-    z-index: 1;
-    border: dashed black 2px;
-    width: 60%;
-    margin-left: 10%;
-    position: absolute;
-    text-decoration: underline;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
+#Ctitle,
+#Ctitle:focus {
+  border: none;
+  font-size: 2rem;
+}
   .Intro {
     display: flex;
     justify-content: space-between;
