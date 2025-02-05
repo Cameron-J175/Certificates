@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="/styles.css">
     <link href="https://fonts.cdnfonts.com/css/diplomata-sc" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <header class="Intro">
@@ -22,7 +23,7 @@
         <section class="CertificateType">
             <h2>You Are Now A Certified</h2>
             <form class="Title">
-                <select name="Title" id="Ctitle">
+                <select name="Title" id="Ctitle" onchange="dynamics()">
                     <option value="Choose Title">Click to View Titles</option>
                     <option value="People's Person">People's Person</option>
                     <option value="Person">Person</option>
@@ -32,10 +33,10 @@
         </section>
     </section>
     <br>
-    <article class="Description">
-        <p>
-
-        </p>
+    <hr class="thiccLine">
+    <hr>
+    <article id="Description">
+    
     </article>
     <section class="CEO">
 
@@ -48,6 +49,5 @@
             <img src="images/surprised-elderly-man-with-mustache-vector-51926125.jpg" alt="Surprised old man" height="250">
         </figure>
     </section>
-<script src="script.js"></script>
 </body>
 </html>

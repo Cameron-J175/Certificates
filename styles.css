@@ -38,6 +38,8 @@ p {
 #Ctitle:focus {
   border: none;
   font-size: 2rem;
+  appearance: none;
+  text-align: center;
 }
   .Intro {
     display: flex;
@@ -60,4 +62,8 @@ p {
     text-align: center;
   }
 
-  
+  .thiccLine {
+    height: 2px;
+    background-color: black;
+    border: none;
+  }
