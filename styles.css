@@ -1,64 +1,70 @@
-* {
-    background-color: #fff7f3;
-    font-family: 'Diplomata SC', sans-serif;
-}
-
-h1 {
-    font-size: 3rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-li {
-    font-size: 2rem;
-    list-style-type: none;
-    padding-left: 0;
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-p {
-    font-size: 1rem;
-}
-
-#nameHere,
-#nameHere:focus {
+@media print {
+  * {
+      background-color: #fff7f3;
+      font-family: 'Diplomata SC', sans-serif;
+  }
+  
+  h1 {
+      font-size: 3rem;
+  }
+  
+  h2 {
+      font-size: 2rem;
+  }
+  
+  li {
+      font-size: 2rem;
+      list-style-type: none;
+      padding-left: 0;
+  }
+  
+  ul {
+      list-style-type: none;
+      padding-left: 0;
+  }
+  
+  p {
+      font-size: 1rem;
+  }
+  
+  #nameHere,
+  #nameHere:focus {
+      border: none;
+      outline: none;
+      font-size: 2rem;
+      text-align: center;
+  }
+  
+  #Ctitle,
+  #Ctitle:focus {
     border: none;
-    outline: none;
     font-size: 2rem;
+    appearance: none;
     text-align: center;
-}
-
-#Ctitle,
-#Ctitle:focus {
-  border: none;
-  font-size: 2rem;
-  appearance: none;
-  text-align: center;
-}
-
-#Description {
-  text-align: center;
-  margin-top: 1rem;
-}
-
-#CEOName {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  margin-top: 2rem;
-}
-
-#CEOTitle {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
+  }
+  
+  #Description {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  #CEOName {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  #CEOTitle {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  #currentdate {
+    font-size: 0.8rem;
+    font-style: italic;
+  }
 
   .Intro {
     display: flex;
@@ -93,4 +99,4 @@ p {
     background-color: black;
     height: 1px;
   }
-
+}

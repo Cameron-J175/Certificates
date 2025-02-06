@@ -18,9 +18,12 @@ function dynamics() {
    }
 }
 
-
-n =  new Date();
-y = n.getFullYear();
-m = n.getMonth() + 1;
-d = n.getDate();
-document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+const monthNames = [
+     "January", "February", "March", "April", "May", "June",
+     "July", "August", "September", "October", "November", "December"
+   ];
+let date =  new Date();
+let year = date.getFullYear();
+let month = monthNames[date.getMonth()];
+let day = date.getDate();
+document.getElementById("currentdate").innerHTML = "AS OF " + month + " " + day + ", " + year;
