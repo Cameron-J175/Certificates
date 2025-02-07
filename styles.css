@@ -206,7 +206,7 @@ height: 1px;
   }
 
   .thiccLine {
-    height: 2px;
+    height: 4px;
     background-color: black;
     border: none;
   }
@@ -216,6 +216,12 @@ height: 1px;
     border: none;
     background-color: black;
     height: 1px;
+  }
+
+  .smallLine {
+    height: 2px;
+    border: none;
+    background-color: black;
   }
 
   .img {
