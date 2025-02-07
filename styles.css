@@ -195,6 +195,7 @@ height: 1px;
   .BottomImages {
     display: flex;
     justify-content: space-between;
+    
   }
 
   .CongratsContent {
@@ -217,11 +218,19 @@ height: 1px;
     height: 1px;
   }
 
+  .img {
+    height: 230px;
+  }
+
   .img-alt {
-    height: 200px;
+    height: 170px;
   }
 
   .mirror {
     transform: scaleX(-1);
+  }
+
+  .CEOContent {
+    margin-bottom: -10%;
   }
 }
