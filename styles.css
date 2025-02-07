@@ -111,7 +111,7 @@ height: 1px;
   transform: scaleX(-1);
 }
 
-@media print {
+@media print and (max-height: 1056px) and (max-width: 816px) {
   body {
     max-height: 100vh;
   }
